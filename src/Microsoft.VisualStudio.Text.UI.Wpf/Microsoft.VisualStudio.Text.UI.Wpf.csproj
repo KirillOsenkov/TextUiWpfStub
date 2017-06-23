@@ -7,6 +7,12 @@
     <DelaySign>False</DelaySign>
     <PublicSign>True</PublicSign>
     <Version>15.0.0.0</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>TextUIWpfStub</PackageId>
+    <Authors>Microsoft</Authors>
+    <Company>Microsoft</Company>
+    <Description>Some basic interfaces from the official Microsoft.VisualStudio.Text.UI.Wpf.dll that don't have a WPF dependency.</Description>
+    <RepositoryUrl>https://github.com/KirillOsenkov/TextUIWpfStub</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
