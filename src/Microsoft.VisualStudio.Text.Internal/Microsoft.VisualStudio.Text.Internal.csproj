@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+    <SignAssembly>True</SignAssembly>
+    <AssemblyOriginatorKeyFile>..\..\MSFT.snk</AssemblyOriginatorKeyFile>
+    <DelaySign>False</DelaySign>
+    <PublicSign>True</PublicSign>
+    <Version>15.0.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.CoreUtility" Version="15.0.26201" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.Data" Version="15.0.26201" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.Logic" Version="15.0.26201" />
+    <PackageReference Include="Microsoft.VisualStudio.Text.UI" Version="15.0.26201" />
+  </ItemGroup>
+
+</Project>
